@@ -1,11 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Homework1</title>
 </head>
+
 <body>
-    
+    <header class="header">
+        <img class="headerstar" src="image/headerstar.svg" alt="headerstar">
+        <img class="star2" src="image/Star2.svg" alt="Star2">
+        <img class="star3" src="image/Star3.svg" alt="Star3">
+        <img class="star5" src="image/Star5.svg" alt="Star5">
+        <img class="star4" src="image/Star4.svg" alt="star4">
+        <div class="header__box center">
+            <h1 class="header__title">Добро пожаловать на мой сайт мини-игр</h1>
+            <p class="header__slogan">Тебе предстоит пройти несколько увлекательных игр. Если готов, нажимай «Поехали!»
+                и приступай.</p>
+            <a class="header__button button" href="#game">Поехали!</a>
+        </div>
+    </header>
+    <section class="game center" id="game">
+        <img class="star1" src="image/Star1.svg" alt="image">
+        <img class="star11" src="image/Star11.svg" alt="image">
+        <img class="star12" src="image/Star12.svg" alt="image">
+        <div class="game__box">
+            <h2 class="game__title">Об играх</h2>
+            <p class="game__slogan">В моей коллекции представлено 6 игр на разные темы.</p>
+            <p class="game__slogan">Игры несложные — в них может поиграть каждый.</p>
+            <p class="game__slogan">Все игры доступны для пользования.</p>
+        </div>
+        <div class="game__brick">
+            <div class="game__brick-row game__brick-rowleft">
+                <a class="game__brick-box" href="#">
+                    <img class="game__img" src="image/game1.svg" alt="game1">
+                    <div class="game__description">
+                        <h3 class="game__number">Игра №1</h3>
+                        <p class="game__name">Угадай число</p>
+                    </div>
+                </a>
+                <a class="game__brick-box game__brick-box_big" href="#">
+                    <img src="image/game4.svg" alt="game4">
+                    <div class="game__description">
+                        <h3 class="game__number">Игра №4</h3>
+                        <p class="game__name game__name_down">Камень, ножницы, бумага</p>
+                    </div>
+                </a>
+            </div>
+            <div class="game__brick-row game__brick-rowcentr">
+                <a class="game__brick-box game__brick-box_big" href="#">
+                    <img src="image/game2.svg" alt="game2">
+                    <div class="game__description">
+                        <h3 class="game__number">Игра №2</h3>
+                        <p class="game__name game__name_down">Простая арифметика</p>
+                    </div>
+                </a>
+                <a class="game__brick-box" href="#">
+                    <img src="image/game5.svg" alt="game5">
+                    <div class="game__description">
+                        <h3 class="game__number">Игра №5</h3>
+                        <p class="game__name game__name_down">Простая викторина</p>
+                    </div>
+                </a>
+            </div>
+            <div class="game__brick-row game__brick-rowright">
+                <a class="game__brick-box" href="#">
+                    <img src="image/game3.svg" alt="game3">
+                    <div class="game__description">
+                        <h3 class="game__number">Игра №3</h3>
+                        <p class="game__name">Переверни текст</p>
+                    </div>
+                </a>
+                <a class="game__brick-box game__brick-box_big" href="#">
+                    <img src="image/game6.svg" alt="game6">
+                    <div class="game__description">
+                        <h3 class="game__number">Игра №6</h3>
+                        <p class="game__name game__name_down">Генератор случайных цветов</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+    <footer class="footer center">
+        <p class="footer__slogan">Все права защищены.</p>
+    </footer>
 </body>
+
 </html>
